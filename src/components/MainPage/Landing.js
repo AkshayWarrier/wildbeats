@@ -14,6 +14,7 @@ const Landing = () => {
     autoplaySpeed: 2000,
     arrows: false,
     pauseOnHover: false,
+    lazyLoad: false, 
 
   };
   return (

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wildbeats/static/css/main.64e0cd62.css",
-    "main.js": "/wildbeats/static/js/main.c07d8b9e.js",
+    "main.css": "/wildbeats/static/css/main.1a28cbf5.css",
+    "main.js": "/wildbeats/static/js/main.24df78a5.js",
     "static/media/Main.png": "/wildbeats/static/media/Main.050b7ad5e3ccca60d8ae.png",
     "static/media/o1.JPG": "/wildbeats/static/media/o1.a11a52cecc13305ef779.JPG",
     "static/media/g4.JPG": "/wildbeats/static/media/g4.083751c15fcca6d80f1e.JPG",
@@ -51,11 +51,11 @@
     "static/media/slick.ttf": "/wildbeats/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/wildbeats/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/wildbeats/index.html",
-    "main.64e0cd62.css.map": "/wildbeats/static/css/main.64e0cd62.css.map",
-    "main.c07d8b9e.js.map": "/wildbeats/static/js/main.c07d8b9e.js.map"
+    "main.1a28cbf5.css.map": "/wildbeats/static/css/main.1a28cbf5.css.map",
+    "main.24df78a5.js.map": "/wildbeats/static/js/main.24df78a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.64e0cd62.css",
-    "static/js/main.c07d8b9e.js"
+    "static/css/main.1a28cbf5.css",
+    "static/js/main.24df78a5.js"
   ]
 }

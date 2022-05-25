@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Events.css";
 const Events = () => {
   // const dDay = new Date(2022, 2, 29, 0, 0, 0, 0).getTime();

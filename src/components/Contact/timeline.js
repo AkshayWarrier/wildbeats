@@ -1,21 +1,19 @@
-import React, { useState } from "react";
+import React from "react";
 import Collapsible from 'react-collapsible';
 
 
 export default function Timeline(){
 
-    const [timeHover, setTimeHover] = useState(0);
 
     return(
         <div className="container">
             <div className="timeline">
                 <ul>
                     <li>
-                        <div onMouseEnter = {() => setTimeHover(1)} onMouseLeave = {() => setTimeHover(0)}>
+                        <div>
                             <Collapsible 
                                 trigger="2020-21" 
                                 className="timeline-content" 
-                                // open = {timeHover === 1 ? true : false}
                                 open = {false}
                             >
                                 <div className="mentor">
@@ -35,11 +33,10 @@ export default function Timeline(){
                         
                     </li>
                     <li>
-                        <div onMouseEnter = {() => setTimeHover(2)} onMouseLeave = {() => setTimeHover(0)} >
+                        <div>
                             <Collapsible 
                                 trigger="2019-20"
                                 className="timeline-content"
-                                // open = {timeHover === 2 ? true : false}
                                 open = {false}
                             >
                                            
@@ -95,11 +92,10 @@ export default function Timeline(){
                         </div>
                     </li>
                     <li>
-                        <div onMouseEnter = {() => setTimeHover(3)} onMouseLeave = {() => setTimeHover(0)} >
+                        <div>
                             <Collapsible 
                                 trigger="2018-19" 
                                 className="timeline-content"
-                                // open = {timeHover === 3 ? true : false}
                                 open = {false}
                             >
                                 <div className="mentor">
@@ -118,11 +114,10 @@ export default function Timeline(){
                         </div>
                     </li>
                     <li>
-                        <div onMouseEnter = {() => setTimeHover(4)} onMouseLeave = {() => setTimeHover(0)} >
+                        <div >
                             <Collapsible 
                                 trigger="2017-18"
                                 className="timeline-content"
-                                // open = {timeHover === 4 ? true : false}
                                 open = {false}
                             >
                                 <div className="mentor">
